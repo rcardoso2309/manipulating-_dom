@@ -1,3 +1,4 @@
+// 0303 - Seleção de Elementos 2
 // Exercício
 // Retorne no console todas as imagens do site
 const listaImg = document.querySelectorAll('img');
