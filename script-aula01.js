@@ -1,3 +1,4 @@
+// 0303 - Seleção de Elementos 1
 const animals = document.getElementById('animals');
 console.log(animals);
 
