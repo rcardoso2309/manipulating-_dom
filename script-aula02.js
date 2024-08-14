@@ -5,6 +5,7 @@ const listaImg = document.querySelectorAll('img');
 
 console.log(listaImg);
 
+// Exercises
 // Retorne no console apenas as imagens que começaram com a palavra imagem
 const imagensAnimais = document.querySelectorAll('img[src^="img/imagem"]');
 

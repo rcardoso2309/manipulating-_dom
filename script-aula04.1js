@@ -1,0 +1,46 @@
+// Classes e Atributos
+const menu = document.querySelector('.menu');
+
+menu.classList.add('ativo', 'teste')
+menu.classList.remove('blue',)
+menu.classList.toggle('blue',)
+
+if(menu.classList.contains('azul')) {
+menu.classList.add('possui-azul');
+} else {
+  menu.classList.add('nao-possui-azul');
+}
+
+menu.className = menu.className + ' vermelho'
+// menu.className += ' vermelho' forma contraida
+
+// console.log(menu.className);
+
+// console.log(menu.classList);
+
+// Attributes
+const animais = document.querySelector('.animals');
+
+console.log(animais.attributes[1]);
+
+
+// getAttribute e setAttribute
+const img = document.querySelector('img');
+const srcImg = img.getAttribute('alt');
+
+img.setAttribute('alt', 'Eh uma raposa');
+
+const possuiAlt = img.hasAttribute('alt');
+console.log(possuiAlt);
+
+console.log(srcImg);
+
+const carro = {
+portas: 4,
+andar: function(km) {
+  console.log('andou ${km}');
+  
+  }
+}
+
+
