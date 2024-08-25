@@ -43,3 +43,18 @@ function initAccordion() {
   });
   }
 initAccordion();
+
+// Scroll Suave Link Interno
+
+const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
+
+function srollToSection(event) {
+  event.preventDefault();
+  const href = event.currentTarget;
+  console.log(href);
+  
+}
+
+linksInternos.forEach((link) => {
+  link.addEventListener('click', srollToSection)
+});
