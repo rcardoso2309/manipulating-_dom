@@ -73,3 +73,6 @@ function initScrollSuave() {
 }
 initScrollSuave();
 
+// Animação ao Scroll
+
+const sections = document.querySelectorAll('.js-scroll');
