@@ -76,3 +76,9 @@ initScrollSuave();
 // Animação ao Scroll
 
 const sections = document.querySelectorAll('.js-scroll');
+
+function animaScroll() {
+  console.log('yes');
+}
+
+window.addEventListener('scroll', animaScroll);
