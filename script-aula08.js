@@ -78,7 +78,15 @@ initScrollSuave();
 const sections = document.querySelectorAll('.js-scroll');
 
 function animaScroll() {
-  console.log('yes');
+  sections.forEach((section) =>{
+    const sectionTop = section.getBoundingClientRect().top;
+    console.log(sectionTop);
+    if(sectionTop < 0) {
+      console.log('animar');
+      
+    }
+  })
 }
 
 window.addEventListener('scroll', animaScroll);
+
